@@ -7,7 +7,7 @@ It allows you to run more than one build command in Parallel
 Once you define your custom Build settings you will be able to run more than one build process at the same time.
 
 This is plugin is ideal if you have to compile more than one LESS/SASS file in the same time, minify your javascript and so on.
-I suggest you to use it combined with NODEJS and "OnSaveBuild" https://github.com/alexnj/SublimeOnSaveBuild
+I suggest you to use it combined with NODEJS and "OnSaveBuild":https://github.com/alexnj/SublimeOnSaveBuild
 
 
 Usage
@@ -19,9 +19,8 @@ Usage
 
 
 Example: Custom Builder
+(To create your custom builder you need to go on Tools -> Build System -> New Build System more info http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems)
 ----------------------------------
-(To create your custom builder you need to go on Tools -> Build System -> New Build System)
-more info http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems
 
 ON OS
 
@@ -77,4 +76,4 @@ The name for each cmd node should be a short description of the command final ta
 Known issues
 ------------
 
-Even each command is executed sequentially I suggest you to run in parallel any command for a different task without use them working the same files. For these tasks I suggest you to build a GRUNT script https://github.com/cowboy/grunt 
+Even each command is executed sequentially I suggest you to run any command in parallel without using them on the same files. For these tasks I suggest you to build a GRUNT script https://github.com/cowboy/grunt 
