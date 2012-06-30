@@ -20,8 +20,8 @@ Usage
 
 Example: Custom Builder
 ----------------------------------
-(To create your custom builder you need to go on Tools -> Build System -> New Build System more info http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems)
-
+(To create your custom builder you need to go on Tools -> Build System -> New Build System)
+more info http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems
 
 ON OS
 
