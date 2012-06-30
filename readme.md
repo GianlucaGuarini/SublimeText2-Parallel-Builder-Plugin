@@ -19,8 +19,10 @@ Usage
 
 
 Example: Custom Builder
-(To create your custom builder you need to go on Tools -> Build System -> New Build System more info http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems)
 ----------------------------------
+(To create your custom builder you need to go on Tools -> Build System -> New Build System) <br />
+more infos http://docs.sublimetext.info/en/latest/reference/build_systems.html#troubleshooting-build-systems
+
 
 ON OS
 
@@ -70,8 +72,8 @@ ON WINDOWS
 
 More Details
 ------------
-Once you set the property "target" to "parallel_builder", for each item of the "cmd" node you can set the command to run and also the path to your command script. In the previous example any command is already installed through Npm and set as system environment variables.
-The name for each cmd node should be a short description of the command final task
+Once you set the property "target" to "parallel_builder", for each item inside the "cmd" node you can set the command to run and also the path to your command script. In the previous example any command is already installed by Npm and set as system environment variables.
+The name for each cmd node should be a short description of the final task
 
 Known issues
 ------------
