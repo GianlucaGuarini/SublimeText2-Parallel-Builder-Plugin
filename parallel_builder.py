@@ -16,7 +16,7 @@ class ParallelBuilderCommand(sublime_plugin.WindowCommand):
     def _run_all_tasks(self):
 
             for task in self.taskNames:
-                sublime.status_message('Building:' + task)
+                print 'Building:' + task
                 currTask = self.mainArgs
                 currTask.update(self.tasks[task])
                 try:
