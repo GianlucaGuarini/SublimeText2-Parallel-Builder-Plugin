@@ -9,6 +9,9 @@ Once you define your custom Build settings you will be able to run more than one
 This plugin is ideal if you have to compile more than one LESS/SASS file at the same time or to minify your javascript and so on.
 I suggest you to use it combined with NODEJS and "OnSaveBuild": https://github.com/alexnj/SublimeOnSaveBuild
 
+Video Tutorial
+------------
+<iframe width="420" height="315" src="http://www.youtube.com/embed/r-WCA42lwcU" frameborder="0" allowfullscreen></iframe>
 
 Usage
 ------------
