@@ -11,7 +11,7 @@ I suggest you to use it combined with NODEJS and "OnSaveBuild": https://github.c
 
 Video Tutorial
 ------------
-<iframe width="420" height="315" src="http://www.youtube.com/embed/r-WCA42lwcU" frameborder="0" allowfullscreen></iframe>
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/r-WCA42lwcU&amp;hl=en_US&amp;fs=1"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/r-WCA42lwcU&amp;hl=en_US&amp;fs=1" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>
 
 Usage
 ------------
