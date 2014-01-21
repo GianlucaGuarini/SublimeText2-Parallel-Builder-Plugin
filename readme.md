@@ -1,3 +1,6 @@
+## Important for the ST3 Users
+This plugin does not work on ST3. Please use https://github.com/GianlucaGuarini/Sublime-Text-Concat-Builder instead
+
 ====================================
 Parallel Builder for SublimeText 2
 ====================================
