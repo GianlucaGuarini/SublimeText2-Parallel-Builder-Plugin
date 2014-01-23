@@ -15,11 +15,11 @@ class ParallelBuilderCommand(sublime_plugin.WindowCommand):
 
     def _run_all_tasks(self):
 
-            for task in self.taskNames:
-                print 'Building:' + task
-                currTask = self.mainArgs
-                currTask.update(self.tasks[task])
-                try:
-                    self.window.run_command("exec", currTask)
-                except:
-                    sublime.error_message("Unexpected error!")
+        for task in self.taskNames:
+            print 'Building:' + task
+            currTask = self.mainArgs
+            currTask.update(self.tasks[task])
+            try:
+                self.window.run_command("exec", currTask)
+            except:
+                sublime.error_message("Unexpected error!")
